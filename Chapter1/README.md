@@ -1,10 +1,10 @@
-How does Python work?
+## How does Python work?
 
 Python is an interpreted, high-level, general-purpose programming language. It is is dynamically typed and garbage-collected.
 
 Python is an interpreted language and not a compiled one, although compilation is a step. Python code, written in .py file is first compiled to what is called bytecode (discussed in detail further) which is stored with a .pyc or .pyo format.This bytecode is a low-level set of instructions that can be executed by an interpreter.
 
-Why Interpreted?
+## Why Interpreted?
 
 One popular advantage of interpreted languages is that they are platform-independent. As long as the Python bytecode and the Virtual Machine have the same version, Python bytecode can be executed on any platform (Windows, MacOS, etc).
 
@@ -16,11 +16,11 @@ Dynamic typing provides a lot of freedom, but simultaneously it makes your code 
 
 Python is often accused of being ‘slow’. Now while the term is relative and argued a lot, the reason for being slow is because the interpreter has to do extra work to have the bytecode instruction translated into a form that can be executed on the machine.
 
-What exactly is Garbage Collection?
+## What exactly is Garbage Collection?
 
 In a simplified way, it keeps track of the number of references to an object. When that number goes down to zero, it deletes that object. This is called reference counting. This cannot be disabled in Python.
 
-What is __pycache__ ?
+## What is __pycache__ ?
 
 Many times in your personal project or on GitHub, you might have seen a folder named __pycache__ being created automatically.
 
