@@ -24,10 +24,10 @@ What is __pycache__ ?
 
 Many times in your personal project or on GitHub, you might have seen a folder named __pycache__ being created automatically.
 
----folder
-    - __pycache__
-        - test.cpython.pyc
-    -test.py
+---folder <br/>
+&nbsp;&nbsp;&nbsp;- __pycache__<br/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;- test.cpython.pyc<br/>
+&nbsp;&nbsp;&nbsp;-test.py<br/>
 
 In this name of the python code it embeded type of interpreted and then .pyc it contain bytecode. Type of interpreted language is C, for the java it will be JPython.
 But why is the folder created in the first place? Well, it slightly increases the speed of the Python program. Unless you change your Python code, recompilation to bytecode is avoided, thereby saving time.
